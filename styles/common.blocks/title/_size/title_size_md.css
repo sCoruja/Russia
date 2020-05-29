@@ -1,0 +1,9 @@
+.title_size_md {
+    font-size: 54px;
+}
+
+@media (max-width: 767px) {
+    .title_size_md {
+        font-size: 32px;
+    }
+}

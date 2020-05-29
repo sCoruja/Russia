@@ -1,0 +1,19 @@
+@import './__copyright-link/footer__copyright-link.css';
+@import './__copyright/footer__copyright.css';
+@import './__link/footer__link.css';
+@import './__list-item/footer__list-item.css';
+@import './__list/footer__list.css';
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 48px;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 24px;
+    }
+}

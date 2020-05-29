@@ -1,0 +1,20 @@
+.comments__title {
+    max-width: 800px;
+    margin: 0 auto 48px auto;
+    text-align: center;
+    line-height: 65px;
+}
+
+@media (max-width: 1023px) {
+    .comments__title {
+        margin-bottom: 24px;
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 767px) {
+    .comments__title {
+        margin-bottom: 16px;
+        line-height: 35px;
+    }
+}

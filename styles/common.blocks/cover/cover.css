@@ -1,0 +1,19 @@
+@import './__bg/cover__bg.css';
+@import './__link/cover__link.css';
+@import './__subtitle/cover__subtitle.css';
+@import './__text/cover__text.css';
+@import './__title/cover__title.css';
+.cover {
+    max-width: 1184px;
+    margin: 102px auto;
+    position: relative;
+    box-sizing: border-box;
+    background-color: black;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .cover {
+        margin: 64px auto;
+    }
+}

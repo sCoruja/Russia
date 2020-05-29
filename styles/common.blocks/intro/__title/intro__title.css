@@ -1,0 +1,12 @@
+.intro__title {
+    line-height: 59px;
+    margin-bottom: 48px;
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+    .intro__title {
+        line-height: 35px;
+        margin-bottom: 32px;
+    }
+}

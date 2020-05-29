@@ -1,0 +1,5 @@
+@import './_size/text_size.css';
+.text {
+    color: #fff;
+    font-weight: normal;
+}

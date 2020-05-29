@@ -1,0 +1,16 @@
+@import './common.blocks/comment/comment.css';
+@import './common.blocks/comments/comments.css';
+@import './common.blocks/cover/cover.css';
+@import './common.blocks/footer/footer.css';
+@import './common.blocks/header/header.css';
+@import './common.blocks/intro/intro.css';
+@import './common.blocks/link/link.css';
+@import './common.blocks/logo/logo.css';
+@import './common.blocks/lead/lead.css';
+@import './common.blocks/photo-grid/photo-grid.css';
+@import './common.blocks/page/page.css';
+@import './common.blocks/place/place.css';
+@import './common.blocks/places/places.css';
+@import './common.blocks/text/text.css';
+@import './common.blocks/title/title.css';
+@import './common.blocks/video/video.css';

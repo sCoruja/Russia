@@ -1,0 +1,12 @@
+.intro__digits-item {
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .intro__digits-item {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

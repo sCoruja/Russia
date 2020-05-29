@@ -1,0 +1,15 @@
+@import './__container/comments__container.css';
+@import './__subtitle/comments__subtitle.css';
+@import './__title/comments__title.css';
+.comments {
+    margin: 0;
+    margin-top: 102px;
+    margin-bottom: 102px;
+}
+
+@media (max-width: 767px) {
+    .comments {
+        margin-top: 64px;
+        margin-bottom: 48px;
+    }
+}

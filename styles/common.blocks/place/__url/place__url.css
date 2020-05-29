@@ -1,0 +1,29 @@
+.place__url {
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: relative;
+    align-self: flex-end;
+    justify-self: flex-start;
+}
+
+.place__url:before {
+    pointer-events: none;
+    cursor: default;
+    position: absolute;
+    top: -36px;
+    content: 'URL';
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    /* ААААААААААААААААААААА */
+    color: #AAAAAA;
+}
+
+@media (max-width: 767px) {
+    .place__url {
+        display: none;
+    }
+}

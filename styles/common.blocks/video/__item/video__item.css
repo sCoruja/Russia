@@ -1,0 +1,35 @@
+.video__item {
+    min-height: 323px;
+    width: calc((100% - 18px) / 2);
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+@media (max-width: 1279px) {
+    .video__item {
+        min-height: 288px;
+        width: calc((100% - 8px) / 2);
+    }
+}
+
+@media (max-width: 1023px) {
+    .video__item {
+        min-height: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    .video__item {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 274px){
+    .video__item{
+        min-height: 192px;
+    }
+}

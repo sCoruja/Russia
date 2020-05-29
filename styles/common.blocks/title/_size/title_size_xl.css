@@ -1,0 +1,9 @@
+.title_size_xl {
+    font-size: 96px;
+}
+
+@media (max-width: 767px) {
+    .title_size_xl {
+        font-size: 40px;
+    }
+}

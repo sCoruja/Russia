@@ -1,0 +1,27 @@
+@import './_type/video__icon_type.css';
+
+.video__icon {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 3;
+    height: 41px;
+    width: 41px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 1023px) {
+    .video__icon {
+        top: 24px;
+        left: 24px;
+    }
+}
+
+@media (max-width: 374px) {
+    .video__icon {
+        top: 16px;
+        left: 16px;
+    }
+}

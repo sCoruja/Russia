@@ -1,0 +1,16 @@
+@import './__lang/header__lang.css';
+@import './__lang/header__lang_active.css';
+@import './__logo/header__logo.css';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 0;
+}
+
+@media (max-width: 767px){
+    .header{
+        padding-top: 16px;
+    }
+}

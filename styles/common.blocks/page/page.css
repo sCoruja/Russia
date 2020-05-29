@@ -1,0 +1,6 @@
+@import './__section/page__section.css';
+.page {
+    background: #2a2c2f;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}

@@ -1,0 +1,11 @@
+.cover__text{
+    width: 100%;
+    z-index: 5;
+    opacity: .99;
+    background-color: rgba(0, 0, 0, .3);
+    transition: ease .5s;
+}
+
+.cover__text:hover{
+    background-color: rgba(0, 0, 0, .8);
+}

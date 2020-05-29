@@ -1,0 +1,5 @@
+@import './_size/title_size.css';
+.title {
+    font-weight: 900;
+    color: #fff;
+}

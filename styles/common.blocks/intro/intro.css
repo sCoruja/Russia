@@ -1,0 +1,28 @@
+@import './__content-row/intro__content-row.css';
+@import './__digits-item/intro__digits-item.css';
+@import './__digits-strong/intro__digits-strong.css';
+@import './__digits/intro__digits.css';
+@import './__subtitle/intro__subtitle.css';
+@import './__text-info-line/intro__text-info-line.css';
+@import './__text/intro__text.css';
+@import './__title/intro__title.css';
+
+.intro {
+    max-width: 984px;
+    margin: 0 auto;
+    margin-bottom: 102px;
+    padding: 0 48px;
+}
+
+@media (max-width: 1023px) {
+    .intro {
+        padding: 0 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro {
+        margin-bottom: 64px;
+        padding: 0 16px;
+    }
+}
